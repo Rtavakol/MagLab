@@ -1,0 +1,646 @@
+Info {BiotSavart 4.1 data file}
+
+Current {
+name {Current}
+supplies {
+	{ {0} {0.012} }
+}
+}
+
+Wire {
+name {a Wire}
+color 19660 45874 45874
+currentSupply 0
+wireDiameter 0
+winding 1
+path {start    -10.0    -13.5    32.4   cm
+goto    -12.7    -13.5    27.0    cm
+goto    -12.7    -12.7    27.0    cm
+goto    -12.0    -12.0    0.0    cm
+goto    -12.0    -13.5    0.0    cm
+goto    -12.0    -13.5    27.0    cm
+goto    -12.0    -12.0    27.0    cm
+goto    -11.2    -11.2    0.0    cm
+goto    -11.2    -13.5    0.0    cm
+goto    -11.2    -13.5    27.0    cm
+goto    -11.2    -11.2    27.0    cm
+goto    -10.4    -10.4    0.0    cm
+goto    -10.4    -13.5    0.0    cm
+goto    -10.4    -13.5    27.0    cm
+goto    -10.4    -10.4    27.0    cm
+goto    -9.6    -9.6    0.0    cm
+goto    -9.6    -13.5    0.0    cm
+goto    -9.6    -13.5    27.0    cm
+goto    -9.6    -9.6    27.0    cm
+goto    -8.9    -8.9    0.0    cm
+goto    -8.9    -13.5    0.0    cm
+goto    -8.9    -13.5    27.0    cm
+goto    -8.9    -8.9    27.0    cm
+goto    -8.1    -8.1    0.0    cm
+goto    -8.1    -13.5    0.0    cm
+goto    -8.1    -13.5    27.0    cm
+goto    -8.1    -8.1    27.0    cm
+goto    -7.3    -7.3    0.0    cm
+goto    -7.3    -13.5    0.0    cm
+goto    -7.3    -13.5    27.0    cm
+goto    -7.3    -7.3    27.0    cm
+goto    -6.6    -6.6    0.0    cm
+goto    -6.6    -13.5    0.0    cm
+goto    -6.6    -13.5    27.0    cm
+goto    -6.6    -6.6    27.0    cm
+goto    -5.8    -5.8    0.0    cm
+goto    -5.8    -13.5    0.0    cm
+goto    -5.8    -13.5    27.0    cm
+goto    -5.8    -5.8    27.0    cm
+goto    -5.0    -5.0    0.0    cm
+goto    -5.0    -13.5    0.0    cm
+goto    -5.0    -13.5    27.0    cm
+goto    -5.0    -5.0    27.0    cm
+goto    -4.2    -4.2    0.0    cm
+goto    -4.2    -13.5    0.0    cm
+goto    -4.2    -13.5    27.0    cm
+goto    -4.2    -4.2    27.0    cm
+goto    -3.5    -3.5    0.0    cm
+goto    -3.5    -13.5    0.0    cm
+goto    -3.5    -13.5    27.0    cm
+goto    -3.5    -3.5    27.0    cm
+goto    -2.7    -2.7    0.0    cm
+goto    -2.7    -13.5    0.0    cm
+goto    -2.7    -13.5    27.0    cm
+goto    -2.7    -2.7    27.0    cm
+goto    -1.9    -1.9    0.0    cm
+goto    -1.9    -13.5    0.0    cm
+goto    -1.9    -13.5    27.0    cm
+goto    -1.9    -1.9    27.0    cm
+goto    -1.2    -1.2    0.0    cm
+goto    -1.2    -13.5    0.0    cm
+goto    -1.2    -13.5    27.0    cm
+goto    -1.2    -1.2    27.0    cm
+goto    -0.4    -0.4    0.0    cm
+goto    -0.4    -13.5    0.0    cm
+goto    -0.4    -13.5    27.0    cm
+goto    -0.4    -0.4    27.0    cm
+goto    0.4    -0.4    0.0    cm
+goto    0.4    -13.5    0.0    cm
+goto    0.4    -13.5    27.0    cm
+goto    0.4    -0.4    27.0    cm
+goto    1.2    -1.2    0.0    cm
+goto    1.2    -13.5    0.0    cm
+goto    1.2    -13.5    27.0    cm
+goto    1.2    -1.2    27.0    cm
+goto    1.9    -1.9    0.0    cm
+goto    1.9    -13.5    0.0    cm
+goto    1.9    -13.5    27.0    cm
+goto    1.9    -1.9    27.0    cm
+goto    2.7    -2.7    0.0    cm
+goto    2.7    -13.5    0.0    cm
+goto    2.7    -13.5    27.0    cm
+goto    2.7    -2.7    27.0    cm
+goto    3.5    -3.5    0.0    cm
+goto    3.5    -13.5    0.0    cm
+goto    3.5    -13.5    27.0    cm
+goto    3.5    -3.5    27.0    cm
+goto    4.2    -4.2    0.0    cm
+goto    4.2    -13.5    0.0    cm
+goto    4.2    -13.5    27.0    cm
+goto    4.2    -4.2    27.0    cm
+goto    5.0    -5.0    0.0    cm
+goto    5.0    -13.5    0.0    cm
+goto    5.0    -13.5    27.0    cm
+goto    5.0    -5.0    27.0    cm
+goto    5.8    -5.8    0.0    cm
+goto    5.8    -13.5    0.0    cm
+goto    5.8    -13.5    27.0    cm
+goto    5.8    -5.8    27.0    cm
+goto    6.6    -6.6    0.0    cm
+goto    6.6    -13.5    0.0    cm
+goto    6.6    -13.5    27.0    cm
+goto    6.6    -6.6    27.0    cm
+goto    7.3    -7.3    0.0    cm
+goto    7.3    -13.5    0.0    cm
+goto    7.3    -13.5    27.0    cm
+goto    7.3    -7.3    27.0    cm
+goto    8.1    -8.1    0.0    cm
+goto    8.1    -13.5    0.0    cm
+goto    8.1    -13.5    27.0    cm
+goto    8.1    -8.1    27.0    cm
+goto    8.9    -8.9    0.0    cm
+goto    8.9    -13.5    0.0    cm
+goto    8.9    -13.5    27.0    cm
+goto    8.9    -8.9    27.0    cm
+goto    9.6    -9.6    0.0    cm
+goto    9.6    -13.5    0.0    cm
+goto    9.6    -13.5    27.0    cm
+goto    9.6    -9.6    27.0    cm
+goto    10.4    -10.4    0.0    cm
+goto    10.4    -13.5    0.0    cm
+goto    10.4    -13.5    27.0    cm
+goto    10.4    -10.4    27.0    cm
+goto    11.2    -11.2    0.0    cm
+goto    11.2    -13.5    0.0    cm
+goto    11.2    -13.5    27.0    cm
+goto    11.2    -11.2    27.0    cm
+goto    12.0    -12.0    0.0    cm
+goto    12.0    -13.5    0.0    cm
+goto    12.0    -13.5    27.0    cm
+goto    12.0    -12.0    27.0    cm
+goto    12.7    -12.7    0.0    cm
+goto    12.7    -13.5    0.0    cm
+goto    12.7    -13.5    27.0    cm
+goto    12.7    -12.7    27.0    cm
+
+ 
+ 
+ 
+
+goto    13.5    -13.5    13.5    cm
+goto    13.5    -12.7    0.0    cm
+
+ 
+ 
+ 
+
+goto    13.5    -12.7    27.0    cm
+goto    12.7    -12.7    27.0    cm
+goto    12.0    -12.0    0.0    cm
+goto    13.5    -12.0    0.0    cm
+goto    13.5    -12.0    27.0    cm
+goto    12.0    -12.0    27.0    cm
+goto    11.2    -11.2    0.0    cm
+goto    13.5    -11.2    0.0    cm
+goto    13.5    -11.2    27.0    cm
+goto    11.2    -11.2    27.0    cm
+goto    10.4    -10.4    0.0    cm
+goto    13.5    -10.4    0.0    cm
+goto    13.5    -10.4    27.0    cm
+goto    10.4    -10.4    27.0    cm
+goto    9.6    -9.6    0.0    cm
+goto    13.5    -9.6    0.0    cm
+goto    13.5    -9.6    27.0    cm
+goto    9.6    -9.6    27.0    cm
+goto    8.9    -8.9    0.0    cm
+goto    13.5    -8.9    0.0    cm
+goto    13.5    -8.9    27.0    cm
+goto    8.9    -8.9    27.0    cm
+goto    8.1    -8.1    0.0    cm
+goto    13.5    -8.1    0.0    cm
+goto    13.5    -8.1    27.0    cm
+goto    8.1    -8.1    27.0    cm
+goto    7.3    -7.3    0.0    cm
+goto    13.5    -7.3    0.0    cm
+goto    13.5    -7.3    27.0    cm
+goto    7.3    -7.3    27.0    cm
+goto    6.6    -6.6    0.0    cm
+goto    13.5    -6.6    0.0    cm
+goto    13.5    -6.6    27.0    cm
+goto    6.6    -6.6    27.0    cm
+goto    5.8    -5.8    0.0    cm
+goto    13.5    -5.8    0.0    cm
+goto    13.5    -5.8    27.0    cm
+goto    5.8    -5.8    27.0    cm
+goto    5.0    -5.0    0.0    cm
+goto    13.5    -5.0    0.0    cm
+goto    13.5    -5.0    27.0    cm
+goto    5.0    -5.0    27.0    cm
+goto    4.2    -4.2    0.0    cm
+goto    13.5    -4.2    0.0    cm
+goto    13.5    -4.2    27.0    cm
+goto    4.2    -4.2    27.0    cm
+goto    3.5    -3.5    0.0    cm
+goto    13.5    -3.5    0.0    cm
+goto    13.5    -3.5    27.0    cm
+goto    3.5    -3.5    27.0    cm
+goto    2.7    -2.7    0.0    cm
+goto    13.5    -2.7    0.0    cm
+goto    13.5    -2.7    27.0    cm
+goto    2.7    -2.7    27.0    cm
+goto    1.9    -1.9    0.0    cm
+goto    13.5    -1.9    0.0    cm
+goto    13.5    -1.9    27.0    cm
+goto    1.9    -1.9    27.0    cm
+goto    1.2    -1.2    0.0    cm
+goto    13.5    -1.2    0.0    cm
+goto    13.5    -1.2    27.0    cm
+goto    1.2    -1.2    27.0    cm
+goto    0.4    -0.4    0.0    cm
+goto    13.5    -0.4    0.0    cm
+goto    13.5    -0.4    27.0    cm
+goto    0.4    -0.4    27.0    cm
+goto    0.4    0.4    0.0    cm
+goto    13.5    0.4    0.0    cm
+goto    13.5    0.4    27.0    cm
+goto    0.4    0.4    27.0    cm
+goto    1.2    1.2    0.0    cm
+goto    13.5    1.2    0.0    cm
+goto    13.5    1.2    27.0    cm
+goto    1.2    1.2    27.0    cm
+goto    1.9    1.9    0.0    cm
+goto    13.5    1.9    0.0    cm
+goto    13.5    1.9    27.0    cm
+goto    1.9    1.9    27.0    cm
+goto    2.7    2.7    0.0    cm
+goto    13.5    2.7    0.0    cm
+goto    13.5    2.7    27.0    cm
+goto    2.7    2.7    27.0    cm
+goto    3.5    3.5    0.0    cm
+goto    13.5    3.5    0.0    cm
+goto    13.5    3.5    27.0    cm
+goto    3.5    3.5    27.0    cm
+goto    4.2    4.2    0.0    cm
+goto    13.5    4.2    0.0    cm
+goto    13.5    4.2    27.0    cm
+goto    4.2    4.2    27.0    cm
+goto    5.0    5.0    0.0    cm
+goto    13.5    5.0    0.0    cm
+goto    13.5    5.0    27.0    cm
+goto    5.0    5.0    27.0    cm
+goto    5.8    5.8    0.0    cm
+goto    13.5    5.8    0.0    cm
+goto    13.5    5.8    27.0    cm
+goto    5.8    5.8    27.0    cm
+goto    6.6    6.6    0.0    cm
+goto    13.5    6.6    0.0    cm
+goto    13.5    6.6    27.0    cm
+goto    6.6    6.6    27.0    cm
+goto    7.3    7.3    0.0    cm
+goto    13.5    7.3    0.0    cm
+goto    13.5    7.3    27.0    cm
+goto    7.3    7.3    27.0    cm
+goto    8.1    8.1    0.0    cm
+goto    13.5    8.1    0.0    cm
+goto    13.5    8.1    27.0    cm
+goto    8.1    8.1    27.0    cm
+goto    8.9    8.9    0.0    cm
+goto    13.5    8.9    0.0    cm
+goto    13.5    8.9    27.0    cm
+goto    8.9    8.9    27.0    cm
+goto    9.6    9.6    0.0    cm
+goto    13.5    9.6    0.0    cm
+goto    13.5    9.6    27.0    cm
+goto    9.6    9.6    27.0    cm
+goto    10.4    10.4    0.0    cm
+goto    13.5    10.4    0.0    cm
+goto    13.5    10.4    27.0    cm
+goto    10.4    10.4    27.0    cm
+goto    11.2    11.2    0.0    cm
+goto    13.5    11.2    0.0    cm
+goto    13.5    11.2    27.0    cm
+goto    11.2    11.2    27.0    cm
+goto    12.0    12.0    0.0    cm
+goto    13.5    12.0    0.0    cm
+goto    13.5    12.0    27.0    cm
+goto    12.0    12.0    27.0    cm
+goto    12.7    12.7    0.0    cm
+goto    13.5    12.7    0.0    cm
+goto    13.5    12.7    27.0    cm
+goto    12.7    12.7    27.0    cm
+
+ 
+ 
+ 
+
+goto    13.5    13.5    13.5    cm
+goto    12.7    13.5    0.0    cm
+
+ 
+ 
+ 
+
+goto    12.7    13.5    27.0    cm
+goto    12.7    12.7    27.0    cm
+goto    12.0    12.0    0.0    cm
+goto    12.0    13.5    0.0    cm
+goto    12.0    13.5    27.0    cm
+goto    12.0    12.0    27.0    cm
+goto    11.2    11.2    0.0    cm
+goto    11.2    13.5    0.0    cm
+goto    11.2    13.5    27.0    cm
+goto    11.2    11.2    27.0    cm
+goto    10.4    10.4    0.0    cm
+goto    10.4    13.5    0.0    cm
+goto    10.4    13.5    27.0    cm
+goto    10.4    10.4    27.0    cm
+goto    9.6    9.6    0.0    cm
+goto    9.6    13.5    0.0    cm
+goto    9.6    13.5    27.0    cm
+goto    9.6    9.6    27.0    cm
+goto    8.9    8.9    0.0    cm
+goto    8.9    13.5    0.0    cm
+goto    8.9    13.5    27.0    cm
+goto    8.9    8.9    27.0    cm
+goto    8.1    8.1    0.0    cm
+goto    8.1    13.5    0.0    cm
+goto    8.1    13.5    27.0    cm
+goto    8.1    8.1    27.0    cm
+goto    7.3    7.3    0.0    cm
+goto    7.3    13.5    0.0    cm
+goto    7.3    13.5    27.0    cm
+goto    7.3    7.3    27.0    cm
+goto    6.6    6.6    0.0    cm
+goto    6.6    13.5    0.0    cm
+goto    6.6    13.5    27.0    cm
+goto    6.6    6.6    27.0    cm
+goto    5.8    5.8    0.0    cm
+goto    5.8    13.5    0.0    cm
+goto    5.8    13.5    27.0    cm
+goto    5.8    5.8    27.0    cm
+goto    5.0    5.0    0.0    cm
+goto    5.0    13.5    0.0    cm
+goto    5.0    13.5    27.0    cm
+goto    5.0    5.0    27.0    cm
+goto    4.2    4.2    0.0    cm
+goto    4.2    13.5    0.0    cm
+goto    4.2    13.5    27.0    cm
+goto    4.2    4.2    27.0    cm
+goto    3.5    3.5    0.0    cm
+goto    3.5    13.5    0.0    cm
+goto    3.5    13.5    27.0    cm
+goto    3.5    3.5    27.0    cm
+goto    2.7    2.7    0.0    cm
+goto    2.7    13.5    0.0    cm
+goto    2.7    13.5    27.0    cm
+goto    2.7    2.7    27.0    cm
+goto    1.9    1.9    0.0    cm
+goto    1.9    13.5    0.0    cm
+goto    1.9    13.5    27.0    cm
+goto    1.9    1.9    27.0    cm
+goto    1.2    1.2    0.0    cm
+goto    1.2    13.5    0.0    cm
+goto    1.2    13.5    27.0    cm
+goto    1.2    1.2    27.0    cm
+goto    0.4    0.4    0.0    cm
+goto    0.4    13.5    0.0    cm
+goto    0.4    13.5    27.0    cm
+goto    0.4    0.4    27.0    cm
+goto    -0.4    0.4    0.0    cm
+goto    -0.4    13.5    0.0    cm
+goto    -0.4    13.5    27.0    cm
+goto    -0.4    0.4    27.0    cm
+goto    -1.2    1.2    0.0    cm
+goto    -1.2    13.5    0.0    cm
+goto    -1.2    13.5    27.0    cm
+goto    -1.2    1.2    27.0    cm
+goto    -1.9    1.9    0.0    cm
+goto    -1.9    13.5    0.0    cm
+goto    -1.9    13.5    27.0    cm
+goto    -1.9    1.9    27.0    cm
+goto    -2.7    2.7    0.0    cm
+goto    -2.7    13.5    0.0    cm
+goto    -2.7    13.5    27.0    cm
+goto    -2.7    2.7    27.0    cm
+goto    -3.5    3.5    0.0    cm
+goto    -3.5    13.5    0.0    cm
+goto    -3.5    13.5    27.0    cm
+goto    -3.5    3.5    27.0    cm
+goto    -4.2    4.2    0.0    cm
+goto    -4.2    13.5    0.0    cm
+goto    -4.2    13.5    27.0    cm
+goto    -4.2    4.2    27.0    cm
+goto    -5.0    5.0    0.0    cm
+goto    -5.0    13.5    0.0    cm
+goto    -5.0    13.5    27.0    cm
+goto    -5.0    5.0    27.0    cm
+goto    -5.8    5.8    0.0    cm
+goto    -5.8    13.5    0.0    cm
+goto    -5.8    13.5    27.0    cm
+goto    -5.8    5.8    27.0    cm
+goto    -6.6    6.6    0.0    cm
+goto    -6.6    13.5    0.0    cm
+goto    -6.6    13.5    27.0    cm
+goto    -6.6    6.6    27.0    cm
+goto    -7.3    7.3    0.0    cm
+goto    -7.3    13.5    0.0    cm
+goto    -7.3    13.5    27.0    cm
+goto    -7.3    7.3    27.0    cm
+goto    -8.1    8.1    0.0    cm
+goto    -8.1    13.5    0.0    cm
+goto    -8.1    13.5    27.0    cm
+goto    -8.1    8.1    27.0    cm
+goto    -8.9    8.9    0.0    cm
+goto    -8.9    13.5    0.0    cm
+goto    -8.9    13.5    27.0    cm
+goto    -8.9    8.9    27.0    cm
+goto    -9.6    9.6    0.0    cm
+goto    -9.6    13.5    0.0    cm
+goto    -9.6    13.5    27.0    cm
+goto    -9.6    9.6    27.0    cm
+goto    -10.4    10.4    0.0    cm
+goto    -10.4    13.5    0.0    cm
+goto    -10.4    13.5    27.0    cm
+goto    -10.4    10.4    27.0    cm
+goto    -11.2    11.2    0.0    cm
+goto    -11.2    13.5    0.0    cm
+goto    -11.2    13.5    27.0    cm
+goto    -11.2    11.2    27.0    cm
+goto    -12.0    12.0    0.0    cm
+goto    -12.0    13.5    0.0    cm
+goto    -12.0    13.5    27.0    cm
+goto    -12.0    12.0    27.0    cm
+goto    -12.7    12.7    0.0    cm
+goto    -12.7    13.5    0.0    cm
+goto    -12.7    13.5    27.0    cm
+goto    -12.7    12.7    27.0    cm
+
+ 
+ 
+ 
+
+goto    -13.5    13.5    13.5    cm
+goto    -13.5    12.7    0.0    cm
+
+ 
+ 
+ 
+
+goto    -13.5    12.7    27.0    cm
+goto    -12.7    12.7    27.0    cm
+goto    -12.0    12.0    0.0    cm
+goto    -13.5    12.0    0.0    cm
+goto    -13.5    12.0    27.0    cm
+goto    -12.0    12.0    27.0    cm
+goto    -11.2    11.2    0.0    cm
+goto    -13.5    11.2    0.0    cm
+goto    -13.5    11.2    27.0    cm
+goto    -11.2    11.2    27.0    cm
+goto    -10.4    10.4    0.0    cm
+goto    -13.5    10.4    0.0    cm
+goto    -13.5    10.4    27.0    cm
+goto    -10.4    10.4    27.0    cm
+goto    -9.6    9.6    0.0    cm
+goto    -13.5    9.6    0.0    cm
+goto    -13.5    9.6    27.0    cm
+goto    -9.6    9.6    27.0    cm
+goto    -8.9    8.9    0.0    cm
+goto    -13.5    8.9    0.0    cm
+goto    -13.5    8.9    27.0    cm
+goto    -8.9    8.9    27.0    cm
+goto    -8.1    8.1    0.0    cm
+goto    -13.5    8.1    0.0    cm
+goto    -13.5    8.1    27.0    cm
+goto    -8.1    8.1    27.0    cm
+goto    -7.3    7.3    0.0    cm
+goto    -13.5    7.3    0.0    cm
+goto    -13.5    7.3    27.0    cm
+goto    -7.3    7.3    27.0    cm
+goto    -6.6    6.6    0.0    cm
+goto    -13.5    6.6    0.0    cm
+goto    -13.5    6.6    27.0    cm
+goto    -6.6    6.6    27.0    cm
+goto    -5.8    5.8    0.0    cm
+goto    -13.5    5.8    0.0    cm
+goto    -13.5    5.8    27.0    cm
+goto    -5.8    5.8    27.0    cm
+goto    -5.0    5.0    0.0    cm
+goto    -13.5    5.0    0.0    cm
+goto    -13.5    5.0    27.0    cm
+goto    -5.0    5.0    27.0    cm
+goto    -4.2    4.2    0.0    cm
+goto    -13.5    4.2    0.0    cm
+goto    -13.5    4.2    27.0    cm
+goto    -4.2    4.2    27.0    cm
+goto    -3.5    3.5    0.0    cm
+goto    -13.5    3.5    0.0    cm
+goto    -13.5    3.5    27.0    cm
+goto    -3.5    3.5    27.0    cm
+goto    -2.7    2.7    0.0    cm
+goto    -13.5    2.7    0.0    cm
+goto    -13.5    2.7    27.0    cm
+goto    -2.7    2.7    27.0    cm
+goto    -1.9    1.9    0.0    cm
+goto    -13.5    1.9    0.0    cm
+goto    -13.5    1.9    27.0    cm
+goto    -1.9    1.9    27.0    cm
+goto    -1.2    1.2    0.0    cm
+goto    -13.5    1.2    0.0    cm
+goto    -13.5    1.2    27.0    cm
+goto    -1.2    1.2    27.0    cm
+goto    -0.4    0.4    0.0    cm
+goto    -13.5    0.4    0.0    cm
+goto    -13.5    0.4    27.0    cm
+goto    -0.4    0.4    27.0    cm
+goto    -0.4    -0.4    0.0    cm
+goto    -13.5    -0.4    0.0    cm
+goto    -13.5    -0.4    27.0    cm
+goto    -0.4    -0.4    27.0    cm
+goto    -1.2    -1.2    0.0    cm
+goto    -13.5    -1.2    0.0    cm
+goto    -13.5    -1.2    27.0    cm
+goto    -1.2    -1.2    27.0    cm
+goto    -1.9    -1.9    0.0    cm
+goto    -13.5    -1.9    0.0    cm
+goto    -13.5    -1.9    27.0    cm
+goto    -1.9    -1.9    27.0    cm
+goto    -2.7    -2.7    0.0    cm
+goto    -13.5    -2.7    0.0    cm
+goto    -13.5    -2.7    27.0    cm
+goto    -2.7    -2.7    27.0    cm
+goto    -3.5    -3.5    0.0    cm
+goto    -13.5    -3.5    0.0    cm
+goto    -13.5    -3.5    27.0    cm
+goto    -3.5    -3.5    27.0    cm
+goto    -4.2    -4.2    0.0    cm
+goto    -13.5    -4.2    0.0    cm
+goto    -13.5    -4.2    27.0    cm
+goto    -4.2    -4.2    27.0    cm
+goto    -5.0    -5.0    0.0    cm
+goto    -13.5    -5.0    0.0    cm
+goto    -13.5    -5.0    27.0    cm
+goto    -5.0    -5.0    27.0    cm
+goto    -5.8    -5.8    0.0    cm
+goto    -13.5    -5.8    0.0    cm
+goto    -13.5    -5.8    27.0    cm
+goto    -5.8    -5.8    27.0    cm
+goto    -6.6    -6.6    0.0    cm
+goto    -13.5    -6.6    0.0    cm
+goto    -13.5    -6.6    27.0    cm
+goto    -6.6    -6.6    27.0    cm
+goto    -7.3    -7.3    0.0    cm
+goto    -13.5    -7.3    0.0    cm
+goto    -13.5    -7.3    27.0    cm
+goto    -7.3    -7.3    27.0    cm
+goto    -8.1    -8.1    0.0    cm
+goto    -13.5    -8.1    0.0    cm
+goto    -13.5    -8.1    27.0    cm
+goto    -8.1    -8.1    27.0    cm
+goto    -8.9    -8.9    0.0    cm
+goto    -13.5    -8.9    0.0    cm
+goto    -13.5    -8.9    27.0    cm
+goto    -8.9    -8.9    27.0    cm
+goto    -9.6    -9.6    0.0    cm
+goto    -13.5    -9.6    0.0    cm
+goto    -13.5    -9.6    27.0    cm
+goto    -9.6    -9.6    27.0    cm
+goto    -10.4    -10.4    0.0    cm
+goto    -13.5    -10.4    0.0    cm
+goto    -13.5    -10.4    27.0    cm
+goto    -10.4    -10.4    27.0    cm
+goto    -11.2    -11.2    0.0    cm
+goto    -13.5    -11.2    0.0    cm
+goto    -13.5    -11.2    27.0    cm
+goto    -11.2    -11.2    27.0    cm
+goto    -12.0    -12.0    0.0    cm
+goto    -13.5    -12.0    0.0    cm
+goto    -13.5    -12.0    27.0    cm
+goto    -12.0    -12.0    27.0    cm
+goto    -12.7    -12.7    0.0    cm
+goto    -13.5    -12.7    0.0    cm
+goto    -13.5    -12.7    27.0    cm
+goto    -12.7    -12.7    27.0    cm
+
+ 
+ 
+ 
+
+goto    -13.5    -13.5    13.5    cm
+goto    -12.7    -13.5    0.0    cm
+goto    -12.7    -13.5    27.0    cm
+
+ 
+ 
+ 
+
+goto    -15.4    -13.5    32.4    cm}
+fluxPathStep 0.1
+}
+
+Planar {
+name {a Planar-Bx}
+color 65535 65535 0
+positionX -0.2
+positionY 0.2
+positionZ 0.135
+eulerTheta 90
+grid 20 20
+uX 0
+uY 0
+uZ 0.4
+vX 0.4
+vY 0
+vZ 0
+plot Bx
+apartWindow 1
+drawGrid 1
+drawContour 1
+drawFrame 1
+}
+
+Planar {
+name {a Planar-By}
+color 65535 65535 0
+positionX -0.2
+positionY 0.2
+positionZ 0.135
+eulerTheta 90
+grid 20 20
+uX 0
+uY 0
+uZ 0.4
+vX 0.4
+vY 0
+vZ 0
+plot By
+apartWindow 1
+drawGrid 1
+drawContour 1
+drawFrame 1
+}
