@@ -8,5 +8,5 @@ Are Notebooks written in Python to generate coordinates associate with a magneti
 Results of magnetic field simulation is plotted in notebooks written in Python. The software has its own graphical features to demonstrate the results. But one may want to explore it more. So, results have been exported as txt file and plotted in these notebooks.
 ## [Shimming Coil](https://github.com/Rtavakol/MagLab/tree/main/Shimming%20Coil)
 Contains .biot, notebook, field data and field gradient data files. 
-.biot contains three 1st order and five 2nd order gradient coils. The coils are Bz ~ X, Y, Z, X^2 - Z^2, Y^2 - Z^2, XY, XZ and YZ coils. For more information about coils, have a look at [Anderson's paper](https://aip.scitation.org/doi/10.1063/1.1717338) on shimming coil. 
+.biot contains three 1st order and five 2nd order gradient coils. The coils are Bz ~ X, Y, Z, X^2 - Z^2, Y^2 - Z^2, XY, XZ and YZ coils. For more information about coils, have a look at [Anderson's paper](https://aip.scitation.org/doi/10.1063/1.1717338) on shimming coil. The paper is published in 1961! 60 years ago but still usefull.\\
 
