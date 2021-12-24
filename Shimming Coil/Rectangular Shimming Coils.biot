@@ -1,0 +1,557 @@
+Info {BiotSavart 4.1 data file}
+
+Current {
+name {Current}
+supplies {
+	{ {1st_gradient_z} {0} }
+	{ {1st_gradient_y} {0} }
+	{ {1st_gradient_x} {0} }
+	{ {2nd_gradient_x2-z2} {0} }
+	{ {2nd_gradient_y2-z2} {0} }
+	{ {2nd_gradient_xy} {0} }
+	{ {2nd_gradient_xz} {1} }
+	{ {2nd_gradient_yz} {0} }
+}
+}
+
+Loop {
+name {a Loop}
+color 19660 45874 45874
+currentSupply 1st_gradient_z
+wireDiameter 0
+winding -5
+nPhi 50
+loops {
+	{{0.0577} {0.05} {5}}
+	{{0.0577} {-0.05} {-5}}
+}
+fluxPhiSteps 50
+}
+
+Linear {
+name {a Linear_Z}
+color 0 65535 65535
+path {start 0 0 -0.05
+resolution 0.001
+goto 0 0 0.05
+
+
+}
+plot Bz vs z
+}
+
+Wire {
+name {dBz/dBy at Z = +0.05, +Y}
+color 65535 0 0
+currentSupply 1st_gradient_y
+wireDiameter 0
+winding 5
+path {start 	-0.12 	0.098 	0.05
+goto 	0.12	 0.098	0.05
+goto	0.12	0.02	0.05
+goto	-0.12	0.02	0.05
+goto 	-0.12	0.098	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBy at Z = +0.05, -Y}
+color 65535 0 0
+currentSupply 1st_gradient_y
+wireDiameter 0
+winding 5
+path {start 	-0.12 	-0.098 	0.05
+goto 	0.12	 -0.098	0.05
+goto	0.12	-0.02	0.05
+goto	-0.12	-0.02	0.05
+goto 	-0.12	-0.098	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBy at Z = -0.05, +Y}
+color 65535 0 0
+currentSupply 1st_gradient_y
+wireDiameter 0
+winding 5
+path {start 	-0.12 	0.098 	-0.05
+goto 	0.12	 0.098	-0.05
+goto	0.12	0.02	-0.05
+goto	-0.12	0.02	-0.05
+goto 	-0.12	0.098	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBy at Z = -0.05, -Y}
+color 65535 0 0
+currentSupply 1st_gradient_y
+wireDiameter 0
+winding 5
+path {start 	-0.12 	-0.098 	-0.05
+goto 	0.12	-0.098	-0.05
+goto	0.12	-0.02	-0.05
+goto	-0.12	-0.02	-0.05
+goto 	-0.12	-0.098	-0.05
+}
+fluxPathStep 0.1
+}
+
+Linear {
+name {a Linear_Y}
+color 65535 0 0
+path {start 0 -0.05 0
+resolution 0.001
+goto 0 0.05 0
+
+
+}
+plot Bz vs y
+}
+
+Wire {
+name {dBz/dBx at Z = +0.05, +X}
+color 65535 65535 0
+currentSupply 1st_gradient_x
+wireDiameter 0
+winding 5
+path {start 	0.098	-0.12 	0.05
+goto 	0.098	0.12	0.05
+goto	0.02	0.12	0.05
+goto	0.02	-0.12	0.05
+goto 	0.098	-0.12	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBx at Z = +0.05, -X}
+color 65535 65535 0
+currentSupply 1st_gradient_x
+wireDiameter 0
+winding 5
+path {start 	-0.098	-0.12 	0.05
+goto 	-0.098	0.12	0.05
+goto	-0.02	0.12	0.05
+goto	-0.02	-0.12	0.05
+goto 	-0.098	-0.12	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBx at Z = -0.05, +X}
+color 65535 65535 0
+currentSupply 1st_gradient_x
+wireDiameter 0
+winding 5
+path {start 	0.098	-0.12 	-0.05
+goto 	0.098	0.12	-0.05
+goto	0.02	0.12	-0.05
+goto	0.02	-0.12	-0.05
+goto 	0.098	-0.12	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {dBz/dBx at Z = -0.05, -X}
+color 65535 65535 0
+currentSupply 1st_gradient_x
+wireDiameter 0
+winding 5
+path {start 	-0.098	-0.12 	-0.05
+goto 	-0.098	0.12	-0.05
+goto	-0.02	0.12	-0.05
+goto	-0.02	-0.12	-0.05
+goto 	-0.098	-0.12	-0.05
+}
+fluxPathStep 0.1
+}
+
+Linear {
+name {a Linear_X}
+color 65535 65535 0
+path {start -0.05 0 0
+resolution 0.001
+goto 0.05 0 0
+
+
+}
+plot Bz vs x
+}
+
+Wire {
+name {X2 - Z2 at Z = +0.05, inner}
+color 19660 45874 45874
+currentSupply 2nd_gradient_x2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.041	-0.14 	0.05
+goto 	-0.041	0.14	0.05
+goto	0.041	0.14	0.05
+goto	0.041	-0.14	0.05
+goto 	-0.041	-0.14	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {X2 - Z2 at Z = +0.05, Outter}
+color 19660 45874 45874
+currentSupply 2nd_gradient_x2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.06	0.145 	0.05
+goto 	-0.06	-0.145	0.05
+goto	0.06	-0.145	0.05
+goto	0.06	0.145	0.05
+goto 	-0.06	0.145	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {X2 - Z2 at Z = -0.05, inner}
+color 19660 45874 45874
+currentSupply 2nd_gradient_x2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.041	-0.14 	-0.05
+goto 	-0.041	0.14	-0.05
+goto	0.041	0.14	-0.05
+goto	0.041	-0.14	-0.05
+goto 	-0.041	-0.14	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {X2 - Z2 at Z = -0.05, Outter}
+color 19660 45874 45874
+currentSupply 2nd_gradient_x2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.06	0.145 	-0.05
+goto 	-0.06	-0.145	-0.05
+goto	0.06	-0.145	-0.05
+goto	0.06	0.145	-0.05
+goto 	-0.06	0.145	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {Y2 - Z2 at Z = +0.05, inner}
+color 19660 45874 45874
+currentSupply 2nd_gradient_y2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.14	-0.041	0.05
+goto 	0.14	-0.041	0.05
+goto	0.14	0.041	0.05
+goto	-0.14	0.041	0.05
+goto 	-0.14	-0.041	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {Y2 - Z2 at Z = +0.05, Outter}
+color 19660 45874 45874
+currentSupply 2nd_gradient_y2-z2
+wireDiameter 0
+winding 5
+path {start 	0.145	-0.06 	0.05
+goto 	-0.145	-0.06	0.05
+goto	-0.145	0.06	0.05
+goto	0.145	0.06	0.05
+goto 	0.145	-0.06	0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {Y2 - Z2 at Z = -0.05, inner}
+color 19660 45874 45874
+currentSupply 2nd_gradient_y2-z2
+wireDiameter 0
+winding 5
+path {start 	-0.14	-0.041 	-0.05
+goto 	0.14	-0.041	-0.05
+goto	0.14	0.041	-0.05
+goto	-0.14	0.041	-0.05
+goto 	-0.14	-0.041	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {Y2 - Z2 at Z = -0.05, Outter}
+color 19660 45874 45874
+currentSupply 2nd_gradient_y2-z2
+wireDiameter 0
+winding 5
+path {start 	0.145	-0.06	-0.05
+goto 	-0.145	-0.06	-0.05
+goto	-0.145	0.06	-0.05
+goto	0.145	0.06	-0.05
+goto 	0.145	-0.06	-0.05
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XY at Z = +0.05, 1}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xy
+wireDiameter 0
+winding 5
+path {start 	0.111	 0.059	 0.050
+goto 	-0.059	 -0.111	 0.050
+goto 	-0.111	 -0.059	 0.050
+goto 	0.059	 0.111	 0.050
+goto 	0.111	 0.059	 0.050
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XY at Z = +0.05, 2}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xy
+wireDiameter 0
+winding 5
+path {start 	0.111	 -0.059	 0.050
+goto 	-0.059	 0.111	 0.050
+goto 	-0.111	 0.059	 0.050
+goto 	0.059	 -0.111	 0.050
+goto 	0.111	 -0.059	 0.050
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XY at Z = -0.05, 1}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xy
+wireDiameter 0
+winding 5
+path {start 	0.111	 0.059	 -0.050
+goto 	-0.059	 -0.111	 -0.050
+goto 	-0.111	 -0.059	 -0.050
+goto 	0.059	 0.111	 -0.050
+goto 	0.111	 0.059	 -0.050
+
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XY at Z = -0.05, 2}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xy
+wireDiameter 0
+winding 5
+path {start 	0.111	 -0.059	 -0.050
+goto 	-0.059	 0.111	 -0.050
+goto 	-0.111	 0.059	 -0.050
+goto 	0.059	 -0.111	 -0.050
+goto 	0.111	 -0.059	 -0.050
+
+
+}
+fluxPathStep 0.1
+}
+
+Planar {
+name {XY plane}
+color 65535 65535 0
+positionX -0.05
+positionY -0.05
+grid 30 30
+uX 0.1
+uY 0
+uZ 0
+vX 0
+vY 0.1
+vZ 0
+plot Bz
+apartWindow 1
+drawGrid 1
+drawContour 1
+drawFrame 1
+}
+
+Wire {
+name {XZ at Z = +0.05, 1}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xz
+wireDiameter 0
+winding 5
+path {start 	0.056	 -0.140	 0.050
+goto 	0.056	 0.140	 0.050
+goto 	0.030	 0.140	 0.050
+goto 	0.030	 -0.140	 0.050
+goto 	0.056	 -0.140	 0.050
+
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XZ at Z = +0.05, 2}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xz
+wireDiameter 0
+winding 5
+path {start 	-0.056	 -0.140	 0.050
+goto 	-0.056	 0.140	 0.050
+goto 	-0.030	 0.140	 0.050
+goto 	-0.030	 -0.140	 0.050
+goto 	-0.030	 -0.140	 0.050
+
+
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XZ at Z = -0.05, 1}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xz
+currentScale -1
+wireDiameter 0
+winding 5
+path {start 	0.056	 -0.140	 -0.050
+goto 	0.056	 0.140	 -0.050
+goto 	0.030	 0.140	 -0.050
+goto 	0.030	 -0.140	 -0.050
+goto 	0.056	 -0.140	 -0.050
+
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {XZ at Z = -0.05, 2}
+color 19660 45874 45874
+currentSupply 2nd_gradient_xz
+currentScale -1
+wireDiameter 0
+winding 5
+path {start 	-0.056	 -0.140	 -0.050
+goto 	-0.056	 0.140	 -0.050
+goto 	-0.030	 0.140	 -0.050
+goto 	-0.030	 -0.140	 -0.050
+goto 	-0.030	 -0.140	 -0.050
+
+
+}
+fluxPathStep 0.1
+}
+
+Planar {
+name {XZ plane}
+color 65535 65535 0
+positionX -0.05
+positionZ -0.05
+grid 30 30
+uX 0.1
+uY 0
+uZ 0
+vX 0
+vY 0
+vZ 0.1
+plot Bz
+apartWindow 1
+drawGrid 1
+drawContour 1
+drawFrame 1
+}
+
+Wire {
+name {YZ at Z = +0.05, 1}
+color 65535 65535 32896
+currentSupply 2nd_gradient_yz
+wireDiameter 0
+winding 5
+path {start 	-0.140	 0.056	 0.050
+goto 	0.140	 0.056	 0.050
+goto 	0.140	 0.030	 0.050
+goto 	-0.140	 0.030	 0.050
+goto 	-0.140	 0.056	 0.050
+
+}
+fluxPathStep 0.1
+}
+
+Planar {
+name {YZ plane}
+color 65535 65535 0
+positionY -0.05
+positionZ -0.05
+grid 30 30
+uX 0
+uY 0.1
+uZ 0
+vX 0
+vY 0
+vZ 0.1
+plot Bz
+apartWindow 1
+drawGrid 1
+drawContour 1
+drawFrame 1
+}
+
+Wire {
+name {YZ at Z = +0.05, 2}
+color 65535 65535 32896
+currentSupply 2nd_gradient_yz
+wireDiameter 0
+winding 5
+path {start 	-0.140	 -0.056	 0.050
+goto 	0.140	 -0.056	 0.050
+goto 	0.140	 -0.030	 0.050
+goto 	-0.140	 -0.030	 0.050
+goto 	-0.140	 -0.030	 0.050
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {YZ at Z = -0.05, 1}
+color 65535 65535 32896
+currentSupply 2nd_gradient_yz
+currentScale -1
+wireDiameter 0
+winding 5
+path {start 	-0.140	 0.056	 -0.050
+goto 	0.140	 0.056	 -0.050
+goto 	0.140	 0.030	 -0.050
+goto 	-0.140	 0.030	 -0.050
+goto 	-0.140	 0.056	 -0.050
+
+}
+fluxPathStep 0.1
+}
+
+Wire {
+name {YZ at Z = -0.05, 2}
+color 65535 65535 32896
+currentSupply 2nd_gradient_yz
+currentScale -1
+wireDiameter 0
+winding 5
+path {start 	-0.140	 -0.056	 -0.050
+goto 	0.140	 -0.056	 -0.050
+goto 	0.140	 -0.030	 -0.050
+goto 	-0.140	 -0.030	 -0.050
+goto 	-0.140	 -0.030	 -0.050
+}
+fluxPathStep 0.1
+}
