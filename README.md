@@ -11,6 +11,4 @@ Contains .biot, notebook, field data and field gradient data files.
 * .biot contains three 1st order and five 2nd order gradient coils. The coils are Bz ~ X, Y, Z, X^2 - Z^2, Y^2 - Z^2, XY, XZ and YZ coils. For more information about coils, have a look at [Anderson's paper](https://aip.scitation.org/doi/10.1063/1.1717338) on shimming coil. The paper is published in 1961! 60 years ago but still usefull. Another usefull paper on shimming can be found here: [McDowell's paper](https://www.sciencedirect.com/science/article/pii/S1090780718302337#f0010).
 * Notebook contains python codes to visualize field and gradient profiles for 1st and 2nd order gradients. The data file associate with field and gradient files can be found at [Field](https://github.com/Rtavakol/MagLab/tree/main/Shimming%20Coil/Individual_Fields) and [Gradient](https://github.com/Rtavakol/MagLab/tree/main/Shimming%20Coil/Individual_Gradients)
 * You can find dimension of coils at [Geometry](). 
-* $$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
+* 
