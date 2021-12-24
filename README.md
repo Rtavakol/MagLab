@@ -6,5 +6,7 @@ Are Notebooks written in Python to generate coordinates associate with a magneti
 .biot files are magnetic field simulation files created by BiotSavart Software. Link to [BiotSavart](http://www.ripplon.com/BiotSavart/)
 ## [Results Files]()
 Results of magnetic field simulation is plotted in notebooks written in Python. The software has its own graphical features to demonstrate the results. But one may want to explore it more. So, results have been exported as txt file and plotted in these notebooks.
-
+## [Shimming Coil]()
+Contains .biot, notebook, field data and field gradient data files. 
+.biot
 
